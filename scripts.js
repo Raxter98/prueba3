@@ -1,7 +1,13 @@
 window.sr = ScrollReveal();
 
-    sr.reveal('.ss', {
+    sr.reveal('.navbar', { 
         duration: 3000,
-        origin: 'right',
-        distance:'400px'
+        origin: "top",
+        distance: "100px"
+    });
+
+    sr.reveal('.formulario', { 
+        duration: 3000,
+        origin: "left",
+        distance: "100px"
     });
